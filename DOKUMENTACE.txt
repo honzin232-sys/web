@@ -1,0 +1,44 @@
+DOKUMENTACE ZÁVĚREČNÉ PRÁCE (ZP) - STAVEBNÍ FIRMA S.R.O.
+
+Tento projekt vzniká jako školní práce v rámci předmětu WBA. Cílem je vytvořit moderní a funkční webovou prezentaci pro stavební společnost.
+
+1. CÍLE PROJEKTU
+Hlavním cílem této práce je vytvořit kompletní remake stávajících, zastaralých webových stránek reálné stavební firmy. Původní web trpěl špatnou přehledností, absencí responzivity a neaktuálním designem. 
+
+Cíle webu:
+- Profesionální prezentace služeb (hrubé stavby, rekonstrukce, zatepleni).
+- Získání nových poptávek skrze kontaktní formulář a přehledné informace.
+- Budování důvěry u potenciálních klientů pomocí moderního vizuálního stylu.
+
+2. CÍLOVÁ SKUPINA
+Web je primárně určen pro:
+- Jazyk: Čeština (lokální trh v ČR).
+- Věk: 25–65 let (majitelé nemovitostí, lidé plánující stavbu nebo rekonstrukci).
+- Zkušenost uživatele: Běžný uživatel internetu – důraz je kladen na jednoduchou navigaci a rychlý přístup ke kontaktu.
+
+3. STRUKTURA WEBU
+Web se skládá ze 7 vzájemně propojených stránek:
+- Domů (index.html): Přehled nejdůležitějších informací, hero sekce, výhody a výběr z referencí.
+- O nás (o-nas.html): Historie firmy a filozofie kvality.
+- Služby (sluzby.html): Rozcestník ke konkrétním stavebním činnostem.
+- Detailní stránky služeb:
+    - Hrubá stavba (sluzby/hruba-stavba.html)
+    - Rekonstrukce (sluzby/rekonstrukce.html)
+    - Zateplení (sluzby/zatepleni.html)
+- Kontakt (kontakt.html): Adresa, mapa a kontaktní informace.
+
+4. TECHNICKÉ ŘEŠENÍ
+Projekt je postaven na čistých technologiích pro maximální rychlost a kontrolu nad kódem:
+- HTML5: Sémantická struktura stránek.
+- Vanilla CSS: Vlastní designový systém bez použití frameworků (Tailwind/Bootstrap).
+- JavaScript: Jednoduchý skript pro asynchronní načítání komponent (Header/Footer) napříč všemi stránkami a obsluhu mobilního menu.
+- Responzivita: Web je plně optimalizován pro mobilní zařízení, tablety i desktopy.
+
+Použité nástroje a zdroje:
+- Google Antigravity: Tento nástroj byl použit při vývoji. Byl využit především pro zajištění konzistence barev napříč celým webem, řešení mobilní responzivity, generování textového obsahu, výběr písem, vyhledávání vhodných ikon a testování různých variant designu a rozvržení stránek.
+- Font Awesome: Použití ikon pro moderní a přehledný vzhled.
+- Google Fonts: Typografie využívající moderní bezpatková písma.
+- Unsplash, Pexels, Gemini: Použití fotografií a obrázků pro vizuální obsah.
+
+5. NÁVRH A INSPIRACE
+Inspirace pro web vychází z moderních trendů ve stavebnictví, kde dominuje čistý prostor, výrazná typografie a kvalitní fotografie realizací. Rozložení prvků bylo navrženo s ohledem na "mobile-first" přístup, aby byla zajištěna perfektní čitelnost i na telefonech.

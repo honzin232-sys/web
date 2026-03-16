@@ -1,0 +1,218 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.nav-logo {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-white);
+  letter-spacing: -0.5px;
+}
+
+.nav-logo span {
+  color: var(--color-accent);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links>li>a {
+  color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition);
+}
+
+.nav-links>li>a:hover,
+.nav-links>li>a.active {
+  color: var(--color-accent);
+}
+
+.btn-nav-cta {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-left: 8px;
+  transition: all var(--transition);
+  text-align: center;
+}
+
+.btn-nav-cta:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+  color: var(--color-white) !important;
+}
+
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown>a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-dropdown>a::after {
+  content: '▾';
+  font-size: 0.7rem;
+  transition: transform var(--transition);
+}
+
+.nav-dropdown:hover>a::after {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 200px;
+  background: var(--color-primary-light);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: opacity var(--transition), transform var(--transition), visibility var(--transition);
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-size: 0.88rem;
+  color: var(--color-white);
+  transition: background var(--transition), color var(--transition);
+}
+
+.dropdown-menu li:last-child a {
+  border-bottom: none;
+}
+
+.dropdown-menu a:hover {
+  color: var(--color-accent);
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 2px;
+  background: var(--color-white);
+  border-radius: 2px;
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    background: var(--color-primary-light);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px 0 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links>li>a {
+    padding: 12px 24px;
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: block;
+  }
+
+  .nav-dropdown>a::after {
+    display: none;
+  }
+
+  .nav-dropdown .dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;
+    display: block;
+  }
+
+  .nav-dropdown .dropdown-menu a {
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    border-bottom: none;
+    display: block;
+  }
+
+.nav-cta-li {
+    padding: 16px 24px;
+  }
+
+  .btn-nav-cta {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    padding: 14px;
+  }
+}
+
