@@ -72,6 +72,11 @@
 }
 
 .sd-features-header {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.sd-features-header-center {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -117,52 +122,57 @@
   line-height: 1.4;
 }
 
-/* Info & CTA Section */
+/* Info & CTA Section - 3 karty (Na čem si zakládám) */
 .sd-info-section {
   padding: 100px 0;
   background-color: var(--color-white);
 }
 
-.sd-info-container {
+.sd-reasons-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 60px;
-  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
-.sd-info-text p {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  color: var(--color-text-muted);
-}
-
-.cta-box {
-  background: var(--color-primary);
-  color: var(--color-white);
-  padding: 50px 40px;
+.sd-reason-card {
+  background: var(--color-bg);
+  padding: 40px 30px;
   border-radius: var(--radius);
   text-align: center;
-  box-shadow: 0 16px 40px rgba(26, 39, 68, 0.2);
+  border: 1px solid rgba(0,0,0,0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cta-box h3 {
-  font-family: var(--font-heading);
-  font-size: 1.6rem;
-  font-weight: 800;
-  margin-bottom: 16px;
-  color: var(--color-white);
+.sd-reason-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.06);
 }
 
-.cta-box p {
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-
-.btn-full {
-  width: 100%;
+.sd-reason-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--color-primary);
+  color: var(--color-accent);
+  border-radius: 50%;
   display: flex;
+  align-items: center;
   justify-content: center;
+  font-size: 1.4rem;
+  margin: 0 auto 24px;
+}
+
+.sd-reason-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.sd-reason-card p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
 }
 
 /* Responsive */
@@ -182,7 +192,7 @@
 }
 
 @media (max-width: 768px) {
-  .sd-features-grid {
+  .sd-features-grid, .sd-reasons-grid {
     grid-template-columns: 1fr 1fr;
   }
   .sd-hero {
@@ -191,7 +201,7 @@
 }
 
 @media (max-width: 500px) {
-  .sd-features-grid {
+  .sd-features-grid, .sd-reasons-grid {
     grid-template-columns: 1fr;
   }
   .sd-hero-actions {

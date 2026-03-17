@@ -1,47 +1,92 @@
 const servicesData = {
-  "hruba-stavba": {
-    title: "Hrubá stavba",
-    label: "Základ všeho",
-    image: "images/hrubaStavba.jpg",
-    descriptionText: "Základem každé kvalitní a trvanlivé stavby je precizně provedená hrubá stavba. Naše stavební čety mají dlouholeté zkušenosti s realizací od rodinných domů až po větší komerční objekty. Pracujeme výhradně s certifikovanými materiály a moderní mechanizací, což nám umožňuje dodržet i ty nejpřísnější termíny a technologické postupy.",
-    descriptionText2: "Od přesného vytyčení základů, přes poctivé zdění, až po realizaci střešní konstrukce. Dbáme na každý detail, protože víme, že chyby v této fázi se později napravují jen velmi těžce a draze.",
+  "elektroinstalace": {
+    title: "Elektroinstalace",
+    label: "Bezpečná elektřina",
+    image: "images/Elektroinstalace.png",
+    descriptionText: "Provádím kompletní elektroinstalační práce pro rodinné domy, byty i komerční prostory. Od návrhu rozvodů přes instalaci jističů a zásuvek až po revizní přípravu. Pracuji s kvalitními materiály a dbám na dodržení všech norem a bezpečnostních předpisů.",
+    descriptionText2: "Ať už stavíte nový dům, rekonstruujete byt nebo potřebujete opravit stávající rozvody — zajistím vám spolehlivou a bezpečnou elektroinstalaci. Každá práce je provedena pečlivě s ohledem na budoucí snadnou údržbu a případné rozšíření.",
     features: [
-      "Kompletní zemní a výkopové práce",
-      "Kvalitní izolace proti vlhkosti a radonu",
-      "Zdění z plných i přesných tvárnic",
-      "Realizace monolitických i skládaných stropů",
-      "Stavba komínových systémů",
-      "Příprava pro instalaci krovu a střechy"
+      "Kompletní elektroinstalace novostaveb",
+      "Rekonstrukce a výměna starých rozvodů",
+      "Montáž rozvaděčů a jističů",
+      "Instalace zásuvek, vypínačů a osvětlení",
+      "Příprava pro revizní kontrolu",
+      "Montáž domácích zvonků a videotelefonů"
     ]
   },
-  "rekonstrukce": {
-    title: "Rekonstrukce a modernizace",
-    label: "Nový život pro staré zdi",
-    image: "images/rekonstrukce.jpg",
-    descriptionText: "Ať už plánujete kompletní přestavbu bytového jádra, nebo rekonstrukci celého patra v rodinném domě, jsme tu pro vás. Měníme opotřebované prostory k nepoznání. Pečlivě analyzujeme stávající stav, navrhneme optimální řešení a postaráme se o vše od prvního kopnutí do zdi až po závěrečný úklid.",
-    descriptionText2: "Mezi naše hlavní přednosti při rekonstrukcích patří ohleduplnost. Víme, jak nepříjemné je žít na staveništi, proto práce organizujeme s maximální efektivitou a důrazem na minimalizaci prachu a hluku pro vás i vaše sousedy.",
+  "vodoinstalace": {
+    title: "Vodoinstalace",
+    label: "Spolehlivé rozvody vody",
+    image: "images/Vodoinstalace.png",
+    descriptionText: "Zajišťuji profesionální vodoinstalatérské práce — od montáže nových rozvodů teplé a studené vody přes instalaci odpadního potrubí až po připojení sanitárních zařízení. Používám moderní materiály jako PPR a PEX potrubí pro maximální životnost.",
+    descriptionText2: "Kvalitně provedená vodoinstalace je základem komfortního bydlení. Každý spoj a každé vedení provádím s maximální pečlivostí, aby vás v budoucnu nečekaly žádné nepříjemné překvapení v podobě úniku vody.",
     features: [
-      "Šetrné bourací práce a odvoz suti",
-      "Realizace nových rozvodů (elektřina, voda, topení)",
-      "Sádrokartonářské práce a podhledy",
-      "Pokládka veškerých druhů podlahových krytin",
-      "Precizní zednické práce a omítání",
-      "Kompletní obklady a dlažby koupelen"
+      "Montáž rozvodů teplé a studené vody",
+      "Instalace odpadního potrubí",
+      "Připojení umyvadel, van a sprchových koutů",
+      "Montáž a výměna baterií a ventilů",
+      "Instalace vodoměrů a filtrů",
+      "Opravy a servis stávajících rozvodů"
     ]
   },
-  "zatepleni": {
-    title: "Zateplení a fasády",
-    label: "Snižte náklady na energie",
-    image: "images/zatepleni.jpg",
-    descriptionText: "Investice do kvalitního zateplení se vám vrátí v řádu několika málo let na úsporách za energie. Specializujeme se na profesionální zateplování rodinných i bytových domů pomocí prověřených certifikovaných fasádních systémů (ETICS).",
-    descriptionText2: "Kromě samotného polystyrenu nebo minerální vaty dáváme velký důraz na detaily – správné založení izolantu, hmoždinkování a armovací vrstvu. Finální povrchovou úpravu (fasádní omítku) provádíme ve vámi zvoleném odstínu tak, aby dům nejen izoloval, ale i dokonale vypadal.",
+  "pokryvacske-prace": {
+    title: "Pokrývačské a klempířské práce",
+    label: "Střecha nad hlavou",
+    image: "images/PokryvacskeAKlempirskePrace.png",
+    descriptionText: "Nabízím komplexní pokrývačské a klempířské služby. Realizuji nové střešní krytiny, opravy a údržbu střech, montáž okapových systémů a veškeré klempířské prvky. Pracuji s tradičními i moderními materiály pro maximální ochranu vašeho domu.",
+    descriptionText2: "Střecha je nejdůležitější částí každého domu — chrání vás před povětrnostními vlivy a zajišťuje tepelný komfort. Proto kladu maximální důraz na kvalitu provedení a použité materiály, aby vaše střecha sloužila spolehlivě po mnoho let.",
     features: [
-      "Montáž kontaktních zateplovacích systémů (EPS, vata)",
-      "Vytvoření odolné výztužné (armovací) vrstvy",
-      "Aplikace prémiových fasádních omítek",
-      "Zateplení soklových částí extrudovaným polystyrenem",
-      "Zateplení půdních prostor a střech",
-      "Renovace a zateplení lodžií a balkónů"
+      "Pokládka a výměna střešní krytiny",
+      "Montáž a opravy okapových systémů",
+      "Klempířské oplechování (komíny, okna, atiky)",
+      "Opravy a údržba plochých i šikmých střech",
+      "Montáž střešních oken a prostupů",
+      "Izolace a hydroizolace střešního pláště"
+    ]
+  },
+  "sadrokarton": {
+    title: "Sádrokartonářské práce",
+    label: "Moderní interiéry",
+    image: "images/SadrokartonarskePrace.png",
+    descriptionText: "Specializuji se na montáž sádrokartonových konstrukcí — příčky, podhledy, předstěny a obložení. Sádrokarton je ideální řešení pro rychlé a čisté úpravy interiéru, ať už jde o novou dispozici bytu, skrytí rozvodů nebo vytvoření designových prvků.",
+    descriptionText2: "S využitím kvalitních systémů (Knauf, Rigips) vytvářím konstrukce, které jsou pevné, rovné a připravené k okamžité povrchové úpravě. Každý spoj je pečlivě zatmelen a přebroušen pro dokonale hladký povrch.",
+    features: [
+      "Montáž sádrokartonových příček a předstěn",
+      "Realizace podhledů a kazetových stropů",
+      "Obložení stěn a šikmých podhledů v podkroví",
+      "SDK konstrukce pro skrytí rozvodů",
+      "Protipožární a akustické SDK konstrukce",
+      "Tmelení a broušení do finální kvality"
+    ]
+  },
+  "montaz-kuchyni": {
+    title: "Montáž kuchyní",
+    label: "Srdce vašeho domova",
+    image: "images/MontazKuchyni.png",
+    descriptionText: "Provádím profesionální montáž kuchyňských linek na klíč. Od přesného zaměření prostoru přes kompletní sestavení skříněk a pracovní desky až po napojení spotřebičů a finální seřízení. Pracuji s kuchyněmi všech značek a materiálů.",
+    descriptionText2: "Kuchyně je srdcem každého domova a zaslouží si precizní montáž. Dbám na dokonalé srovnání, funkčnost všech mechanismů a čistotu provedení, aby vám vaše nová kuchyně sloužila bez problémů po mnoho let.",
+    features: [
+      "Zaměření prostoru a příprava podkladu",
+      "Kompletní sestavení kuchyňské linky",
+      "Montáž a seřízení dvířek a zásuvek",
+      "Řezání a osazení pracovní desky",
+      "Zapojení dřezu, baterie a myčky",
+      "Připojení vestavných spotřebičů"
+    ]
+  },
+  "obklady-dlazby": {
+    title: "Obklady a dlažby",
+    label: "Precizní povrchy",
+    image: "images/ObkladyADlazby.png",
+    descriptionText: "Provádím pokládku obkladů a dlažeb v koupelnách, kuchyních, na terasách i v dalších prostorech. Pracuji se všemi typy materiálů — keramika, porcelán, přírodní kámen. Kladu důraz na přesné spárování, správnou hydroizolaci a bezchybný vizuální výsledek.",
+    descriptionText2: "Kvalitně položené obklady a dlažba dodají vašemu interiéru elegantní a trvanlivý vzhled. Před zahájením prací vždy pečlivě připravím podklad, aby byla pokládka dokonalá a výsledek vás potěšil na dlouhá léta.",
+    features: [
+      "Pokládka obkladů a dlažeb v interiéru i exteriéru",
+      "Realizace hydroizolací v mokrých provozech",
+      "Příprava a nivelace podkladu",
+      "Řezání a zabrušování rohů a detailů",
+      "Spárování a aplikace silikonových tmelů",
+      "Pokládka velkoformátových obkladů a dlažeb"
     ]
   }
 };

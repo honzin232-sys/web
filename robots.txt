@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Cesta k sitemapě
+Sitemap: https://www.elektro-stavebniprace.cz/sitemap.xml

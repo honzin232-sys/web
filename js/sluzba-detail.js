@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Získání ID služby z URL adresy (např. sluzba-detail.html?id=hruba-stavba)
+    // Získání ID služby z URL (např. sluzba-detail.html?id=elektroinstalace)
     const urlParams = new URLSearchParams(window.location.search);
     const serviceId = urlParams.get('id');
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = servicesData[serviceId];
 
     // Nastavení hlavičky stránky
-    document.title = `${data.title} — Stavební firma s.r.o.`;
+    document.title = `${data.title} — Jan Jakubec`;
     
     // Vyplnění Hero sekce
     setTextContent('detail-label', data.label);
@@ -47,15 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Vyplnění Info sekce
-    setTextContent('detail-desc-2', data.descriptionText2);
-
-    // Nastavení odkazů na kontaktní formulář s předvýběrem oboru
+    // Nastavení odkazu na kontaktní formulář
     const cta1 = document.getElementById('detail-cta-link-1');
-    const cta2 = document.getElementById('detail-cta-link-2');
-    
     if(cta1) cta1.href = `kontakt.html?service=${serviceId}`;
-    if(cta2) cta2.href = `kontakt.html?service=${serviceId}`;
 });
 
 function setTextContent(id, text) {

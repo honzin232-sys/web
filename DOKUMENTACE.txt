@@ -1,37 +1,40 @@
-DOKUMENTACE ZÁVĚREČNÉ PRÁCE (ZP) - STAVEBNÍ FIRMA S.R.O.
+DOKUMENTACE ZÁVĚREČNÉ PRÁCE (ZP) — JAN JAKUBEC — ŘEMESLNÉ PRÁCE
 
-Tento projekt vzniká jako školní práce v rámci předmětu WBA. Cílem je vytvořit moderní a funkční webovou prezentaci pro stavební společnost.
+Tento projekt vzniká jako školní práce v rámci předmětu WBA. Cílem je vytvořit moderní a funkční webovou prezentaci pro živnostníka Jana Jakubce, který poskytuje řemeslné služby v Ústí nad Labem a okolí.
 
 1. CÍLE PROJEKTU
-Hlavním cílem této práce je vytvořit kompletní remake stávajících, zastaralých webových stránek reálné stavební firmy. Původní web trpěl špatnou přehledností, absencí responzivity a neaktuálním designem. 
+Hlavním cílem této práce je vytvořit kompletní remake stávajících, zastaralých webových stránek reálného živnostníka. Původní web trpěl špatnou přehledností, absencí responzivity a neaktuálním designem. 
 
 Cíle webu:
-- Profesionální prezentace služeb (hrubé stavby, rekonstrukce, zatepleni).
+- Profesionální prezentace služeb (elektroinstalace, vodoinstalace, pokrývačské a klempířské práce, sádrokartonářské práce, montáž kuchyní, obklady a dlažby).
 - Získání nových poptávek skrze kontaktní formulář a přehledné informace.
-- Budování důvěry u potenciálních klientů pomocí moderního vizuálního stylu.
+- Budování důvěry u potenciálních zákazníků pomocí moderního vizuálního stylu.
 
 2. CÍLOVÁ SKUPINA
 Web je primárně určen pro:
 - Jazyk: Čeština (lokální trh v ČR).
-- Věk: 25–65 let (majitelé nemovitostí, lidé plánující stavbu nebo rekonstrukci).
+- Věk: 25–65 let (majitelé nemovitostí, lidé plánující rekonstrukci nebo instalace).
 - Zkušenost uživatele: Běžný uživatel internetu – důraz je kladen na jednoduchou navigaci a rychlý přístup ke kontaktu.
 
 3. STRUKTURA WEBU
-Web se skládá ze 7 vzájemně propojených stránek:
-- Domů (index.html): Přehled nejdůležitějších informací, hero sekce, výhody a výběr z referencí.
-- O nás (o-nas.html): Historie firmy a filozofie kvality.
-- Služby (sluzby.html): Rozcestník ke konkrétním stavebním činnostem.
-- Detailní stránky služeb:
-    - Hrubá stavba (sluzby/hruba-stavba.html)
-    - Rekonstrukce (sluzby/rekonstrukce.html)
-    - Zateplení (sluzby/zatepleni.html)
+Web se skládá z 10 vzájemně propojených stránek:
+- Domů (index.html): Přehled nejdůležitějších informací, hero sekce, výhody a výběr z dokončených zakázek.
+- O mně (o-nas.html): Příběh živnostníka a jeho hodnoty.
+- Služby (sluzby.html): Rozcestník ke konkrétním řemeslným činnostem.
+- Detailní stránky služeb (sluzba-detail.html s parametrem):
+    - Elektroinstalace (sluzba-detail.html?id=elektroinstalace)
+    - Vodoinstalace (sluzba-detail.html?id=vodoinstalace)
+    - Pokrývačské a klempířské práce (sluzba-detail.html?id=pokryvacske-prace)
+    - Sádrokartonářské práce (sluzba-detail.html?id=sadrokarton)
+    - Montáž kuchyní (sluzba-detail.html?id=montaz-kuchyni)
+    - Obklady a dlažby (sluzba-detail.html?id=obklady-dlazby)
 - Kontakt (kontakt.html): Adresa, mapa a kontaktní informace.
 
 4. TECHNICKÉ ŘEŠENÍ
 Projekt je postaven na čistých technologiích pro maximální rychlost a kontrolu nad kódem:
 - HTML5: Sémantická struktura stránek.
 - Vanilla CSS: Vlastní designový systém bez použití frameworků (Tailwind/Bootstrap).
-- JavaScript: Jednoduchý skript pro asynchronní načítání komponent (Header/Footer) napříč všemi stránkami a obsluhu mobilního menu.
+- JavaScript: Jednoduchý skript pro asynchronní načítání komponent (Header/Footer) napříč všemi stránkami, obsluhu mobilního menu a dynamické načítání dat služeb na stránce sluzba-detail.html.
 - Responzivita: Web je plně optimalizován pro mobilní zařízení, tablety i desktopy.
 
 Použité nástroje a zdroje:
@@ -41,4 +44,4 @@ Použité nástroje a zdroje:
 - Unsplash, Pexels, Gemini: Použití fotografií a obrázků pro vizuální obsah.
 
 5. NÁVRH A INSPIRACE
-Inspirace pro web vychází z moderních trendů ve stavebnictví, kde dominuje čistý prostor, výrazná typografie a kvalitní fotografie realizací. Rozložení prvků bylo navrženo s ohledem na "mobile-first" přístup, aby byla zajištěna perfektní čitelnost i na telefonech.
+Inspirace pro web vychází z moderních trendů v prezentaci řemeslných služeb, kde dominuje čistý prostor, výrazná typografie a kvalitní fotografie realizací. Rozložení prvků bylo navrženo s ohledem na "mobile-first" přístup, aby byla zajištěna perfektní čitelnost i na telefonech.
