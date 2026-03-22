@@ -24,19 +24,44 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["LocalBusiness", "Electrician", "Plumber", "RoofingContractor", "HomeAndConstructionBusiness"],
     "name": "Jan Jakubec – Řemeslné a stavební práce",
     "description": "Profesionální elektroinstalace, vodoinstalace, pokrývačské práce, sádrokartony, montáž kuchyní a obklady v Ústí nad Labem a okolí.",
-    "telephone": "+420774668789",
+    "telephone": [
+      "+420774668789",
+      "+420 774 668 789",
+      "774668789",
+      "774 668 789"
+    ],
+    "email": "jan.jakubec@elektro-stavebniprace.cz",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Ústí nad Labem",
+      "streetAddress": "V Jámě 2/942",
+      "addressLocality": "Ústí nad Labem-město",
+      "postalCode": "400 01",
       "addressCountry": "CZ"
     },
-    "areaServed": "Ústí nad Labem",
-    "url": "https://www.elektro-stavebniprace.cz"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.6607,
+      "longitude": 14.0322
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": "Ústí nad Labem a Ústecký kraj"
+    },
+    "url": "https://www.elektro-stavebniprace.cz",
+    "sameAs": "https://maps.app.goo.gl/PL8YDqn6jmuZNi9D6",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "07:00",
+      "closes": "17:00"
+    },
+    "priceRange": "$$"
   }
   </script>
+
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="https://api.ssps.cajthaml.eu/file/68f3df8a793bb6d00c5da848">
@@ -279,7 +304,7 @@
         </div>
         <div class="kde-map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.8!2d14.0322!3d50.6607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e39b8518e7b7b%3A0x400af0f6614e730!2zw5NzdMOtIG5hZCBMYWJlbQ!5e0!3m2!1scs!2scz!4v1700000000000!5m2!1scs!2scz"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68042.75399268532!2d13.997582405803499!3d50.67068488297193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47099b31cf28eec7%3A0x930cde169a941628!2sElektro%20a%20Stavebn%C3%AD%20pr%C3%A1ce!5e0!3m2!1scs!2scz!4v1774168293988!5m2!1scs!2scz"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Moje poloha na mapě">
           </iframe>
         </div>
@@ -287,6 +312,7 @@
     </div>
   </section>
 
+  <div id="phone-info-placeholder"></div>
   <div id="footer-placeholder"></div>
   <script src="js/components.js"></script>
 </body>

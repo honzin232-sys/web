@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     footerPlaceholder.outerHTML = await res.text();
   }
 
+  const phoneInfoPlaceholder = document.getElementById('phone-info-placeholder');
+  if (phoneInfoPlaceholder) {
+    const res = await fetch('components/phone-info.html');
+    phoneInfoPlaceholder.outerHTML = await res.text();
+  }
+
   const btn = document.querySelector('.nav-toggle');
   const menu = document.querySelector('.nav-links');
   if (!btn || !menu) return;

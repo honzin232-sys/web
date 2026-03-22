@@ -114,3 +114,53 @@ ul  { list-style: none; }
   color: var(--color-white);
 }
 
+/* Phone Info Section */
+.phone-info-section {
+  padding: 100px 0;
+  text-align: center;
+  background: var(--color-white);
+}
+
+.phone-info-section .section-title {
+  margin-bottom: 20px;
+}
+
+.phone-info-desc {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.phone-numbers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.phone-number-card {
+  background: var(--color-white);
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-primary);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(0,0,0,0.05);
+  text-decoration: none;
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-number-card i {
+  color: var(--color-accent);
+}
+
+.phone-number-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
