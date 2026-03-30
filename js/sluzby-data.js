@@ -2,9 +2,9 @@ const servicesData = {
   "elektroinstalace": {
     title: "Elektroinstalace",
     label: "Bezpečná elektřina",
-    image: "images/Elektroinstalace.png",
-    descriptionText: "Provádím kompletní elektroinstalační práce pro rodinné domy, byty i komerční prostory. Od návrhu rozvodů přes instalaci jističů a zásuvek až po revizní přípravu. Pracuji s kvalitními materiály a dbám na dodržení všech norem a bezpečnostních předpisů.",
-    descriptionText2: "Ať už stavíte nový dům, rekonstruujete byt nebo potřebujete opravit stávající rozvody — zajistím vám spolehlivou a bezpečnou elektroinstalaci. Každá práce je provedena pečlivě s ohledem na budoucí snadnou údržbu a případné rozšíření.",
+    image: "images/Elektroinstalace.webp",
+    descriptionText: "Provádíme kompletní elektroinstalační práce pro rodinné domy, byty i komerční prostory. Od návrhu rozvodů přes instalaci jističů a zásuvek až po revizní přípravu. Pracujeme s kvalitními materiály a dbáme na dodržení všech norem a bezpečnostních předpisů.",
+    descriptionText2: "Ať už stavíte nový dům, rekonstruujete byt nebo potřebujete opravit stávající rozvody — zajistíme vám spolehlivou a bezpečnou elektroinstalaci. Každá práce je provedena pečlivě s ohledem na budoucí snadnou údržbu a případné rozšíření.",
     features: [
       "Kompletní elektroinstalace novostaveb",
       "Rekonstrukce a výměna starých rozvodů",
@@ -17,9 +17,9 @@ const servicesData = {
   "vodoinstalace": {
     title: "Vodoinstalace",
     label: "Spolehlivé rozvody vody",
-    image: "images/Vodoinstalace.png",
-    descriptionText: "Zajišťuji profesionální vodoinstalatérské práce — od montáže nových rozvodů teplé a studené vody přes instalaci odpadního potrubí až po připojení sanitárních zařízení. Používám moderní materiály jako PPR a PEX potrubí pro maximální životnost.",
-    descriptionText2: "Kvalitně provedená vodoinstalace je základem komfortního bydlení. Každý spoj a každé vedení provádím s maximální pečlivostí, aby vás v budoucnu nečekaly žádné nepříjemné překvapení v podobě úniku vody.",
+    image: "images/Vodoinstalace.webp",
+    descriptionText: "Zajišťujeme profesionální vodoinstalatérské práce — od montáže nových rozvodů teplé a studené vody přes instalaci odpadního potrubí až po připojení sanitárních zařízení. Používáme moderní materiály jako PPR a PEX potrubí pro maximální životnost.",
+    descriptionText2: "Kvalitně provedená vodoinstalace je základem komfortního bydlení. Každý spoj a každé vedení provádíme s maximální pečlivostí, aby vás v budoucnu nečekaly žádné nepříjemné překvapení v podobě úniku vody.",
     features: [
       "Montáž rozvodů teplé a studené vody",
       "Instalace odpadního potrubí",
@@ -32,9 +32,9 @@ const servicesData = {
   "pokryvacske-prace": {
     title: "Pokrývačské a klempířské práce",
     label: "Střecha nad hlavou",
-    image: "images/PokryvacskeAKlempirskePrace.png",
-    descriptionText: "Nabízím komplexní pokrývačské a klempířské služby. Realizuji nové střešní krytiny, opravy a údržbu střech, montáž okapových systémů a veškeré klempířské prvky. Pracuji s tradičními i moderními materiály pro maximální ochranu vašeho domu.",
-    descriptionText2: "Střecha je nejdůležitější částí každého domu — chrání vás před povětrnostními vlivy a zajišťuje tepelný komfort. Proto kladu maximální důraz na kvalitu provedení a použité materiály, aby vaše střecha sloužila spolehlivě po mnoho let.",
+    image: "images/PokryvacskeAKlempirskePrace.webp",
+    descriptionText: "Nabízíme komplexní pokrývačské a klempířské služby. Realizujeme nové střešní krytiny, opravy a údržbu střech, montáž okapových systémů a veškeré klempířské prvky. Pracujeme s tradičními i moderními materiály pro maximální ochranu vašeho domu.",
+    descriptionText2: "Střecha je nejdůležitější částí každého domu — chrání vás před povětrnostními vlivy a zajišťuje tepelný komfort. Proto klademe maximální důraz na kvalitu provedení a použité materiály, aby vaše střecha sloužila spolehlivě po mnoho let.",
     features: [
       "Pokládka a výměna střešní krytiny",
       "Montáž a opravy okapových systémů",
@@ -47,9 +47,9 @@ const servicesData = {
   "sadrokarton": {
     title: "Sádrokartonářské práce",
     label: "Moderní interiéry",
-    image: "images/SadrokartonarskePrace.png",
-    descriptionText: "Specializuji se na montáž sádrokartonových konstrukcí — příčky, podhledy, předstěny a obložení. Sádrokarton je ideální řešení pro rychlé a čisté úpravy interiéru, ať už jde o novou dispozici bytu, skrytí rozvodů nebo vytvoření designových prvků.",
-    descriptionText2: "S využitím kvalitních systémů (Knauf, Rigips) vytvářím konstrukce, které jsou pevné, rovné a připravené k okamžité povrchové úpravě. Každý spoj je pečlivě zatmelen a přebroušen pro dokonale hladký povrch.",
+    image: "images/SadrokartonarskePrace.webp",
+    descriptionText: "Specializujeme se na montáž sádrokartonových konstrukcí — příčky, podhledy, předstěny a obložení. Sádrokarton je ideální řešení pro rychlé a čisté úpravy interiéru, ať už jde o novou dispozici bytu, skrytí rozvodů nebo vytvoření designových prvků.",
+    descriptionText2: "S využitím kvalitních systémů (Knauf, Rigips) vytváříme konstrukce, které jsou pevné, rovné a připravené k okamžité povrchové úpravě. Každý spoj je pečlivě zatmelen a přebroušen pro dokonale hladký povrch.",
     features: [
       "Montáž sádrokartonových příček a předstěn",
       "Realizace podhledů a kazetových stropů",
@@ -62,9 +62,9 @@ const servicesData = {
   "montaz-kuchyni": {
     title: "Montáž kuchyní",
     label: "Srdce vašeho domova",
-    image: "images/MontazKuchyni.png",
-    descriptionText: "Provádím profesionální montáž kuchyňských linek na klíč. Od přesného zaměření prostoru přes kompletní sestavení skříněk a pracovní desky až po napojení spotřebičů a finální seřízení. Pracuji s kuchyněmi všech značek a materiálů.",
-    descriptionText2: "Kuchyně je srdcem každého domova a zaslouží si precizní montáž. Dbám na dokonalé srovnání, funkčnost všech mechanismů a čistotu provedení, aby vám vaše nová kuchyně sloužila bez problémů po mnoho let.",
+    image: "images/MontazKuchyni.webp",
+    descriptionText: "Provádíme profesionální montáž kuchyňských linek na klíč. Od přesného zaměření prostoru přes kompletní sestavení skříněk a pracovní desky až po napojení spotřebičů a finální seřízení. Pracujeme s kuchyněmi všech značek a materiálů.",
+    descriptionText2: "Kuchyně je srdcem každého domova a zaslouží si precizní montáž. Dbáme na dokonalé srovnání, funkčnost všech mechanismů a čistotu provedení, aby vám vaše nová kuchyně sloužila bez problémů po mnoho let.",
     features: [
       "Zaměření prostoru a příprava podkladu",
       "Kompletní sestavení kuchyňské linky",
@@ -77,9 +77,9 @@ const servicesData = {
   "obklady-dlazby": {
     title: "Obklady a dlažby",
     label: "Precizní povrchy",
-    image: "images/ObkladyADlazby.png",
-    descriptionText: "Provádím pokládku obkladů a dlažeb v koupelnách, kuchyních, na terasách i v dalších prostorech. Pracuji se všemi typy materiálů — keramika, porcelán, přírodní kámen. Kladu důraz na přesné spárování, správnou hydroizolaci a bezchybný vizuální výsledek.",
-    descriptionText2: "Kvalitně položené obklady a dlažba dodají vašemu interiéru elegantní a trvanlivý vzhled. Před zahájením prací vždy pečlivě připravím podklad, aby byla pokládka dokonalá a výsledek vás potěšil na dlouhá léta.",
+    image: "images/ObkladyADlazby.webp",
+    descriptionText: "Provádíme pokládku obkladů a dlažeb v koupelnách, kuchyních, na terasách i v dalších prostorech. Pracujeme se všemi typy materiálů — keramika, porcelán, přírodní kámen. Klademe důraz na přesné spárování, správnou hydroizolaci a bezchybný vizuální výsledek.",
+    descriptionText2: "Kvalitně položené obklady a dlažba dodají vašemu interiéru elegantní a trvanlivý vzhled. Před zahájením prací vždy pečlivě připravíme podklad, aby byla pokládka dokonalá a výsledek vás potěšil na dlouhá léta.",
     features: [
       "Pokládka obkladů a dlažeb v interiéru i exteriéru",
       "Realizace hydroizolací v mokrých provozech",

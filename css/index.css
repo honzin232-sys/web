@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  background: url('../images/hero.jpg') center/cover no-repeat;
+  background: url('../images/hero.webp') center/cover no-repeat;
   text-align: left;
   color: var(--color-white);
   overflow: hidden;

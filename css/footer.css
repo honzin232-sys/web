@@ -49,6 +49,24 @@
   color: var(--color-accent);
 }
 
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo-img {
+  height: 56px;
+  width: auto;
+  display: block;
+  filter: invert(56%) sepia(86%) saturate(600%) hue-rotate(347deg) brightness(103%) contrast(92%);
+}
+
+.footer-logo em {
+  color: var(--color-accent);
+  font-style: normal;
+}
+
 .footer-tagline {
   font-size: 0.88rem;
   line-height: 1.7;
@@ -104,9 +122,26 @@
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 20px 0;
-  text-align: center;
   font-size: 0.82rem;
   color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-inner a {
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-bottom-inner a:hover {
+  color: var(--color-accent);
 }
 
 @media (max-width: 900px) {

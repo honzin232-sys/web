@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const data = servicesData[serviceId];
 
     // Nastavení hlavičky stránky
-    document.title = `${data.title} Ústí nad Labem | Jan Jakubec | 774 668 789`;
+    document.title = `${data.title} Ústí nad Labem | Jan Jakubec | 777 640 940`;
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-        metaDesc.setAttribute('content', `${data.title} v Ústí nad Labem – ${data.descriptionText.substring(0, 90).trimEnd()}... Zavolejte: 774 668 789 (+420 774 668 789).`);
+        metaDesc.setAttribute('content', `${data.title} v Ústí nad Labem – ${data.descriptionText.substring(0, 90).trimEnd()}... Zavolejte: 777 640 940 (+420 777 640 940).`);
     }
     
     // Vyplnění Hero sekce

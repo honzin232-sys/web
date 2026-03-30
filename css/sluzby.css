@@ -1,6 +1,6 @@
 
 .page-header {
-  background: linear-gradient(to right, rgba(26, 39, 68, 0.95), rgba(36, 54, 96, 0.9)), url('../images/hero.jpg') center/cover no-repeat;
+  background: linear-gradient(to right, rgba(26, 39, 68, 0.95), rgba(36, 54, 96, 0.9)), url('../images/hero.webp') center/cover no-repeat;
   padding: 100px 0;
   text-align: center;
   color: var(--color-white);

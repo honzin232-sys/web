@@ -1,41 +1,32 @@
 DOKUMENTACE ZÁVĚREČNÉ PRÁCE (ZP) — JAN JAKUBEC — ŘEMESLNÉ PRÁCE
 
-Tento projekt vzniká jako školní práce v rámci předmětu WBA. Cílem je vytvořit moderní a funkční webovou prezentaci pro živnostníka Jana Jakubce, který poskytuje řemeslné služby v Ústí nad Labem a okolí.
+Tato dokumentace popisuje technické a strukturální řešení webové prezentace pro živnostníka Jana Jakubce.
 
 1. CÍLE PROJEKTU
-Hlavním cílem této práce je vytvořit kompletní remake stávajících, zastaralých webových stránek reálného živnostníka. Původní web trpěl špatnou přehledností, absencí responzivity a neaktuálním designem. 
-
-Cíle webu:
-- Profesionální prezentace služeb (elektroinstalace, vodoinstalace, pokrývačské a klempířské práce, sádrokartonářské práce, montáž kuchyní, obklady a dlažby).
-- Získání nových poptávek skrze kontaktní formulář a přehledné informace.
-- Budování důvěry u potenciálních zákazníků pomocí moderního vizuálního stylu.
+- Návrh a realizace moderního webu.
+- Zaměření na čistý kód, rychlost načítání a technickou preciznost odpovídající řemeslné povaze služeb.
 
 2. CÍLOVÁ SKUPINA
-Web je primárně určen pro:
-- Jazyk: Čeština (lokální trh v ČR).
-- Věk: 25–65 let (majitelé nemovitostí, lidé plánující rekonstrukci nebo instalace).
-- Zkušenost uživatele: Běžný uživatel internetu – důraz je kladen na jednoduchou navigaci a rychlý přístup ke kontaktu.
+- Majitelé nemovitostí a firmy v Ústí nad Labem a okolí (lokální trh ČR).
 
 3. STRUKTURA WEBU
-Web se skládá z 10 vzájemně propojených stránek:
-- Domů (index.html): Přehled nejdůležitějších informací, hero sekce, výhody a výběr z dokončených zakázek.
-- O mně (o-nas.html): Příběh živnostníka a jeho hodnoty.
-- Služby (sluzby.html): Rozcestník ke konkrétním řemeslným činnostem.
-- Detailní stránky služeb (sluzba-detail.html s parametrem):
-    - Elektroinstalace (sluzba-detail.html?id=elektroinstalace)
-    - Vodoinstalace (sluzba-detail.html?id=vodoinstalace)
-    - Pokrývačské a klempířské práce (sluzba-detail.html?id=pokryvacske-prace)
-    - Sádrokartonářské práce (sluzba-detail.html?id=sadrokarton)
-    - Montáž kuchyní (sluzba-detail.html?id=montaz-kuchyni)
-    - Obklady a dlažby (sluzba-detail.html?id=obklady-dlazby)
-- Kontakt (kontakt.html): Adresa, mapa a kontaktní informace.
+Projekt sestává z 5 fyzických HTML šablon a dynamického systému pro zobrazení služeb:
+- index.html: Úvodní strana s přehledem kompetencí a referencí.
+- o-nas.html: Filozofie a profesní historie.
+- sluzby.html: Hlavní rozcestník 6 klíčových služeb.
+- kontakt.html: Kontaktní informace, mapa a poptávkový formulář.
+- sluzba-detail.html: Dynamická šablona generující obsah na základě URL parametrů.
+
+Spravované služby (přes query parametr ?id=):
+- Elektroinstalace, Vodoinstalace, Pokrývačské práce, Sádrokartony, Montáž kuchyní, Obklady a dlažby.
 
 4. TECHNICKÉ ŘEŠENÍ
-Projekt je postaven na čistých technologiích pro maximální rychlost a kontrolu nad kódem:
-- HTML5: Sémantická struktura stránek.
-- Vanilla CSS: Vlastní designový systém bez použití frameworků (Tailwind/Bootstrap).
-- JavaScript: Jednoduchý skript pro asynchronní načítání komponent (Header/Footer) napříč všemi stránkami, obsluhu mobilního menu a dynamické načítání dat služeb na stránce sluzba-detail.html.
-- Responzivita: Web je plně optimalizován pro mobilní zařízení, tablety i desktopy.
+Architektura webu je postavena na "Vanilla" přístupu (čisté technologie bez těžkých frameworků):
+- Jádro: Sémantické HTML5 a moderní CSS3 (Flexbox/Grid) s Mobile-first strategií.
+- Komponentní model: Vlastní systém v JS (components.js), který asynchronně načítá (`fetch API`) opakující se prvky jako navigaci (navbar.html), patičku (footer.html) a informační lištu (phone-info.html).
+- Dynamické načítání dat: Skript `sluzba-detail.js` parsuje URL parametry a mapuje je na datové struktury v `js/sluzby-data.js`. Tento přístup umožňuje snadnou rozšiřitelnost o nové služby bez nutnosti vytvářet nové HTML soubory.
+- SEO & Metadata: Každá dynamická stránka automaticky aktualizuje `<title>` a `<meta description>` skrze JavaScript pro lepší indexaci ve vyhledávačích.
+- Optimalizace: Lighthouse skóre optimalizováno skrze lazy loading obrázků a efektivní správu assetů.
 
 Použité nástroje a zdroje:
 - Google Antigravity: Tento nástroj byl použit při vývoji. Byl využit především pro zajištění konzistence barev napříč celým webem, řešení mobilní responzivity, generování textového obsahu, výběr písem, vyhledávání vhodných ikon a testování různých variant designu a rozvržení stránek.
@@ -43,5 +34,5 @@ Použité nástroje a zdroje:
 - Google Fonts: Typografie využívající moderní bezpatková písma.
 - Unsplash, Pexels, Gemini: Použití fotografií a obrázků pro vizuální obsah.
 
-5. NÁVRH A INSPIRACE
-Inspirace pro web vychází z moderních trendů v prezentaci řemeslných služeb, kde dominuje čistý prostor, výrazná typografie a kvalitní fotografie realizací. Rozložení prvků bylo navrženo s ohledem na "mobile-first" přístup, aby byla zajištěna perfektní čitelnost i na telefonech.
+5. DESIGN A UX
+UI využívá technickou barevnou paletu (Slate Gray, Midnight Blue) s kontrastními akcenty pro navigaci. UX je optimalizováno pro rychlou konverzi – telefonní kontakt je dostupný na jeden klik z jakékoliv sekce.

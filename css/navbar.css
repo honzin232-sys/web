@@ -17,12 +17,25 @@
   font-family: var(--font-heading);
   font-size: 1.3rem;
   font-weight: 800;
-  color: var(--color-white);
+  color: var(--color-accent);
   letter-spacing: -0.5px;
 }
 
 .nav-logo span {
   color: var(--color-accent);
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo-img {
+  height: 52px;
+  width: auto;
+  display: block;
+  filter: invert(56%) sepia(86%) saturate(600%) hue-rotate(347deg) brightness(103%) contrast(92%);
 }
 
 .nav-links {
@@ -150,7 +163,7 @@
   transition: transform var(--transition), opacity var(--transition);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .nav-toggle {
     display: flex;
   }
