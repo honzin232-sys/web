@@ -19,12 +19,13 @@
   <meta property="og:image" content="https://www.elektro-stavebniprace.cz/images/about.webp">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://api.ssps.cajthaml.eu/file/68f3df8a793bb6d00c5da848">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/sluzba-detail.css">
   <script src="js/sluzby-data.js" defer></script>
+  <script src="js/realizace-photos.js" defer></script>
   <script src="js/sluzba-detail.js" defer></script>
 </head>
 
@@ -92,6 +93,34 @@
         </div>
       </div>
     </section>
+
+    <!-- Sekce 4: Galerie realizací -->
+    <section class="sd-gallery-section bg-light">
+      <div class="container">
+        <div class="sd-features-header-center">
+          <span class="section-label">Naše práce v praxi</span>
+          <h2 class="section-title">Prohlédněte si naše realizace</h2>
+          <p class="sd-gallery-desc">Níže najdete fotografie z našich dokončených zakázek. Kliknutím na snímek si jej prohlédněte v plném rozlišení.</p>
+        </div>
+        <div class="sd-gallery-grid" id="detail-gallery"></div>
+        <div class="sd-gallery-more-wrap" id="gallery-more-wrap" style="display:none;">
+          <button class="btn btn-outline-dark" id="gallery-more-btn">
+            Zobrazit více fotografií <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="sd-lightbox" id="sd-lightbox" aria-hidden="true">
+      <button class="sd-lb-close" id="sd-lb-close" aria-label="Zavřít"><i class="fa-solid fa-xmark"></i></button>
+      <button class="sd-lb-prev" id="sd-lb-prev" aria-label="Předchozí"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="sd-lb-next" id="sd-lb-next" aria-label="Další"><i class="fa-solid fa-chevron-right"></i></button>
+      <div class="sd-lb-img-wrap">
+        <img src="" alt="" id="sd-lb-img" class="sd-lb-img">
+      </div>
+      <div class="sd-lb-counter" id="sd-lb-counter"></div>
+    </div>
   </main>
 
   <div id="phone-info-placeholder"></div>

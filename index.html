@@ -64,7 +64,7 @@
 
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  <link rel="stylesheet" href="https://api.ssps.cajthaml.eu/file/68f3df8a793bb6d00c5da848">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -197,45 +197,25 @@
     </div>
   </section>
 
-  <section class="portfolio-grid-section">
+  <section class="realizace-section">
     <div class="container">
-      <div class="projects-grid">
-        <div class="portfolio-card header-card">
+      <div class="realizace-grid" id="realizace-grid">
+        <div class="realizace-card realizace-card-text">
           <span class="section-label">Naše vizitka</span>
           <h2 class="section-title">Dokončené zakázky</h2>
-          <p class="section-subtitle">Každá práce má svůj příběh. Podívejte se na výsledky našeho řemesla a preciznost
-            provedení.</p>
-        </div>
-        <div class="portfolio-card project-card p-span-2">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200"
-            alt="Kompletní elektroinstalace">
-          <div class="project-info">
-            <span class="project-tag">Elektroinstalace</span>
-            <h3>Kompletní rozvody rodinného domu</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Ústí nad Labem, 2024</p>
-          </div>
-        </div>
-        <div class="portfolio-card project-card p-span-2">
-          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200"
-            alt="Rekonstrukce koupelny">
-          <div class="project-info">
-            <span class="project-tag">Obklady a dlažby</span>
-            <h3>Rekonstrukce koupelny na klíč</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Teplice, 2023</p>
-          </div>
-        </div>
-        <div class="portfolio-card project-card">
-          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200"
-            alt="Montáž kuchyně">
-          <div class="project-info">
-            <span class="project-tag">Montáž kuchyní</span>
-            <h3>Kuchyňská linka na míru</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Děčín, 2024</p>
-          </div>
+          <p class="section-subtitle">Každá práce má svůj příběh. Klikněte na kategorii a projděte si fotografie z dokončených zakázek.</p>
         </div>
       </div>
     </div>
   </section>
+
+  <div class="rlb-lightbox" id="rlb-lightbox" aria-hidden="true">
+    <button class="rlb-close" id="rlb-close" aria-label="Zavřít"><i class="fa-solid fa-xmark"></i></button>
+    <button class="rlb-prev" id="rlb-prev" aria-label="Předchozí"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="rlb-next" id="rlb-next" aria-label="Další"><i class="fa-solid fa-chevron-right"></i></button>
+    <div class="rlb-img-wrap"><img src="" alt="" id="rlb-img" class="rlb-img"></div>
+    <div class="rlb-counter" id="rlb-counter"></div>
+  </div>
 
   <section class="stats-section">
     <div class="container">
@@ -314,6 +294,8 @@
 
   <div id="phone-info-placeholder"></div>
   <div id="footer-placeholder"></div>
+  <script src="js/realizace-photos.js"></script>
+  <script src="js/index-realizace.js"></script>
   <script src="js/components.js"></script>
 </body>
 

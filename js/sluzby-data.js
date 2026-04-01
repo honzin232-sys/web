@@ -12,14 +12,15 @@ const servicesData = {
       "Instalace zásuvek, vypínačů a osvětlení",
       "Příprava pro revizní kontrolu",
       "Montáž domácích zvonků a videotelefonů"
-    ]
+    ],
+    realizaceFolder: "Elektro"
   },
   "vodoinstalace": {
-    title: "Vodoinstalace",
-    label: "Spolehlivé rozvody vody",
+    title: "Vodoinstalace a topení",
+    label: "Spolehlivé rozvody vody a tepla",
     image: "images/Vodoinstalace.webp",
-    descriptionText: "Zajišťujeme profesionální vodoinstalatérské práce — od montáže nových rozvodů teplé a studené vody přes instalaci odpadního potrubí až po připojení sanitárních zařízení. Používáme moderní materiály jako PPR a PEX potrubí pro maximální životnost.",
-    descriptionText2: "Kvalitně provedená vodoinstalace je základem komfortního bydlení. Každý spoj a každé vedení provádíme s maximální pečlivostí, aby vás v budoucnu nečekaly žádné nepříjemné překvapení v podobě úniku vody.",
+    descriptionText: "Zajišťujeme profesionální vodoinstalatérské práce i instalaci topných systémů — od montáže nových rozvodů teplé a studené vody přes instalaci odpadního potrubí až po připojení sanitárních zařízení a radiátorů. Používáme moderní materiály jako PPR a PEX potrubí pro maximální životnost.",
+    descriptionText2: "Kvalitně provedená vodoinstalace a topení jsou základem komfortního bydlení. Každý spoj a každé vedení provádíme s maximální pečlivostí, aby vás v budoucnu nečekaly žádné nepříjemné překvapení v podobě úniku vody nebo nefunkčního vytápění.",
     features: [
       "Montáž rozvodů teplé a studené vody",
       "Instalace odpadního potrubí",
@@ -27,7 +28,8 @@ const servicesData = {
       "Montáž a výměna baterií a ventilů",
       "Instalace vodoměrů a filtrů",
       "Opravy a servis stávajících rozvodů"
-    ]
+    ],
+    realizaceFolder: "VodoinstalaceTopeni"
   },
   "pokryvacske-prace": {
     title: "Pokrývačské a klempířské práce",
@@ -42,7 +44,8 @@ const servicesData = {
       "Opravy a údržba plochých i šikmých střech",
       "Montáž střešních oken a prostupů",
       "Izolace a hydroizolace střešního pláště"
-    ]
+    ],
+    realizaceFolder: "PokryvacskeKlempirske"
   },
   "sadrokarton": {
     title: "Sádrokartonářské práce",
@@ -57,7 +60,8 @@ const servicesData = {
       "SDK konstrukce pro skrytí rozvodů",
       "Protipožární a akustické SDK konstrukce",
       "Tmelení a broušení do finální kvality"
-    ]
+    ],
+    realizaceFolder: "Sadrokarton"
   },
   "montaz-kuchyni": {
     title: "Montáž kuchyní",
@@ -72,14 +76,15 @@ const servicesData = {
       "Řezání a osazení pracovní desky",
       "Zapojení dřezu, baterie a myčky",
       "Připojení vestavných spotřebičů"
-    ]
+    ],
+    realizaceFolder: "Kuchyne"
   },
   "obklady-dlazby": {
-    title: "Obklady a dlažby",
-    label: "Precizní povrchy",
+    title: "Obklady, dlažby a koupelny",
+    label: "Precizní povrchy a koupelny na míru",
     image: "images/ObkladyADlazby.webp",
-    descriptionText: "Provádíme pokládku obkladů a dlažeb v koupelnách, kuchyních, na terasách i v dalších prostorech. Pracujeme se všemi typy materiálů — keramika, porcelán, přírodní kámen. Klademe důraz na přesné spárování, správnou hydroizolaci a bezchybný vizuální výsledek.",
-    descriptionText2: "Kvalitně položené obklady a dlažba dodají vašemu interiéru elegantní a trvanlivý vzhled. Před zahájením prací vždy pečlivě připravíme podklad, aby byla pokládka dokonalá a výsledek vás potěšil na dlouhá léta.",
+    descriptionText: "Provádíme pokládku obkladů a dlažeb v koupelnách, kuchyních, na terasách i v dalších prostorech, včetně kompletních rekonstrukcí koupelen. Pracujeme se všemi typy materiálů — keramika, porcelán, přírodní kámen. Klademe důraz na přesné spárování, správnou hydroizolaci a bezchybný vizuální výsledek.",
+    descriptionText2: "Kvalitně položené obklady, dlažba a precizně zrealizovaná koupelna dodají vašemu interiéru elegantní a trvanlivý vzhled. Před zahájením prací vždy pečlivě připravíme podklad, aby byla pokládka dokonalá a výsledek vás potěšil na dlouhá léta.",
     features: [
       "Pokládka obkladů a dlažeb v interiéru i exteriéru",
       "Realizace hydroizolací v mokrých provozech",
@@ -87,6 +92,7 @@ const servicesData = {
       "Řezání a zabrušování rohů a detailů",
       "Spárování a aplikace silikonových tmelů",
       "Pokládka velkoformátových obkladů a dlažeb"
-    ]
+    ],
+    realizaceFolder: "ObkladyDlazbyKoupelny"
   }
 };
