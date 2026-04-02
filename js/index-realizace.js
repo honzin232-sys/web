@@ -1,11 +1,11 @@
 const realizaceCategories = [
-  { name: 'Elektro služby',                folder: 'Elektro',                coverPhoto: 'WhatsApp Image 2026-03-29 at 19.43.21.jpeg' },
+  { name: 'Elektro služby',                folder: 'Elektro',                coverPhoto: 'WhatsApp Image 2026-04-02 at 12.14.07 (1).jpeg' },
   { name: 'Vodoinstalace a topení',         folder: 'VodoinstalaceTopeni',    coverPhoto: 'IMG_0038.JPG' },
-  { name: 'Pokrývačské a klempířské práce', folder: 'PokryvacskeKlempirske',  coverPhoto: 'WhatsApp Image 2026-03-29 at 19.53.39.jpeg' },
-  { name: 'Sádrokartonářské práce',         folder: 'Sadrokarton',            coverPhoto: 'WhatsApp Image 2026-03-29 at 19.57.16 (2).jpeg' },
+  { name: 'Pokrývačské a klempířské práce', folder: 'PokryvacskeKlempirske',  coverPhoto: 'WhatsApp Image 2026-04-02 at 13.33.23.jpeg' },
+  { name: 'Sádrokartonářské práce',         folder: 'Sadrokarton',            coverPhoto: 'WhatsApp Image 2026-04-02 at 13.49.50 (1).jpeg' },
   { name: 'Montáž kuchyní',                 folder: 'Kuchyne',                coverPhoto: 'WhatsApp Image 2026-03-29 at 20.09.32.jpeg' },
-  { name: 'Obklady, dlažby a koupelny',     folder: 'ObkladyDlazbyKoupelny',  coverPhoto: 'WhatsApp Image 2026-03-29 at 20.00.31.jpeg' },
-  { name: 'Ostatní práce',                  folder: 'Ostatni',                coverPhoto: 'WhatsApp Image 2026-03-29 at 20.06.14 (1).jpeg' },
+  { name: 'Obklady, dlažby a koupelny',     folder: 'ObkladyDlazbyKoupelny',  coverPhoto: 'WhatsApp Image 2026-04-02 at 14.10.52.jpeg' },
+  { name: 'Ostatní práce',                  folder: 'Ostatni',                coverPhoto: 'WhatsApp Image 2026-03-29 at 20.06.14.jpeg' },
 ];
 
 // coverPhoto: set to a specific filename (e.g. "WhatsApp Image 2026-03-29 at 19.43.21.jpeg")
