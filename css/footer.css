@@ -38,21 +38,20 @@
 }
 
 .footer-logo {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 800;
-  color: var(--color-white);
-  margin-bottom: 12px;
-}
-
-.footer-logo span {
-  color: var(--color-accent);
-}
-
-.footer-logo {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+}
+
+.footer-logo-names {
+  display: block;
+  line-height: 1.18;
 }
 
 .footer-logo-img {
@@ -60,11 +59,6 @@
   width: auto;
   display: block;
   filter: invert(56%) sepia(86%) saturate(600%) hue-rotate(347deg) brightness(103%) contrast(92%);
-}
-
-.footer-logo em {
-  color: var(--color-accent);
-  font-style: normal;
 }
 
 .footer-tagline {

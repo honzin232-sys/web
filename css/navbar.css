@@ -10,25 +10,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
-}
-
-.nav-logo {
-  font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 800;
-  color: var(--color-accent);
-  letter-spacing: -0.5px;
-}
-
-.nav-logo span {
-  color: var(--color-accent);
+  min-height: 68px;
+  padding-block: 8px;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--color-accent);
+  letter-spacing: -0.5px;
+}
+
+.nav-logo-names {
+  display: block;
+  line-height: 1.18;
 }
 
 .nav-logo-img {
@@ -171,7 +170,7 @@
   .nav-links {
     display: none;
     position: absolute;
-    top: 68px;
+    top: 100%;
     left: 0;
     width: 100%;
     background: var(--color-primary-light);
